@@ -928,6 +928,7 @@ if [[ -s "${PROJECT_DIR}"/.github_token ]]; then
 			printf "\n<b>Device: %s</b>" "${codename}"
 			printf "\n<b>Version:</b> %s" "${release}"
 			printf "\n<b>Fingerprint:</b> %s" "${fingerprint}"
+                        printf "\n<b>Join:</b> %s" "$CHAT_ID"
 			printf "\n<a href=\"https://github.com/%s/%s/tree/%s/\">Github Tree</a>" "${GIT_ORG}" "${repo}" "${branch}"
 		} >> "${OUTDIR}"/tg.html
 		TEXT=$(< "${OUTDIR}"/tg.html)
