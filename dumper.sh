@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-git config --global user.email "evanferrao@gmail.com"
-git config --global user.name "Box In A Box"
+git config --global user.email "carn4geisd3d@gmail.com"
+git config --global user.name "cArN4gEisDeD"
 # Clear Screen
 tput reset || clear
 
